@@ -747,3 +747,11 @@ button:focus {
   font-weight: 1000 !important;
   color: #c770f0 !important;
 }
+
+.vertical-timeline::before {
+  background-color: rgba(89, 4, 168, 0.137) !important;
+}
+
+.chronology {
+  text-align: start !important;
+}
