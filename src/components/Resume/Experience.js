@@ -1,5 +1,4 @@
 import React from "react";
-import { FaBriefcase } from "react-icons/fa";
 import { VerticalTimeline, VerticalTimelineElement }  from 'react-vertical-timeline-component';
 import unifiedvision from "../../Assets/Experience/unifiedvision.png";
 import careem from "../../Assets/Experience/careem.png";
@@ -81,7 +80,7 @@ const Experience = () => {
                 contentStyle={{ background: 'transparent', opacity: '0.9' }}
                 contentArrowStyle={{ visibility: 'hidden' }}
                 date={row.duration}
-                icon={<img src={row.icon} style={{ width: '100%', height: '100%', borderRadius: '50%' }}/>}
+                icon={<img src={row.icon} style={{ width: '100%', height: '100%', borderRadius: '50%' }} alt={row.company} />}
             >
                 <h3 className="vertical-timeline-element-title">{row.role}</h3>
                 <h2 className="vertical-timeline-element-subtitle" style={{color: "grey"}}>{row.company}</h2>
