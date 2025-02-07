@@ -8,8 +8,12 @@ import {
   AiOutlineFundProjectionScreen,
   AiOutlineUser,
 } from "react-icons/ai";
-
+import { AiOutlineDownload } from "react-icons/ai";
+import { pdfjs } from "react-pdf";
+import "react-pdf/dist/esm/Page/AnnotationLayer.css";
+import pdf from "../Assets/resume.pdf";
 import { CgFileDocument } from "react-icons/cg";
+pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.min.js`;
 
 function NavBar() {
   const [expand, updateExpanded] = useState(false);
@@ -24,6 +28,15 @@ function NavBar() {
   }
 
   window.addEventListener("scroll", scrollHandler);
+
+  const downloadResume = async () => {
+    const link = document.createElement("a");
+    link.href = window.location.origin + pdf;
+    link.download = "resume.pdf"; // specify the filename
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
 
   return (
     <Navbar
@@ -84,6 +97,16 @@ function NavBar() {
                 onClick={() => updateExpanded(false)}
               >
                 <CgFileDocument style={{ marginBottom: "2px" }} /> Experience
+              </Nav.Link>
+            </Nav.Item>
+            <Nav.Item>
+              <Nav.Link
+                as={Link}
+                to="/"
+                onClick={downloadResume}
+              >
+                <AiOutlineDownload />
+                &nbsp;Resume
               </Nav.Link>
             </Nav.Item>
           </Nav>
