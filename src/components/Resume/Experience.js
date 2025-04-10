@@ -10,8 +10,8 @@ import 'react-vertical-timeline-component/style.min.css';
 const experienceData = [
   {
     company: "Unified Vision",
-    role: "Software Engineer II",
-    duration: "Sept 2023 - Present",
+    role: "Staff Software Engineer",
+    duration: "Sept 2020 - Dec 2024",
     icon: unifiedvision,
     descriptionItems: [
         "<span class=\"purple\">Transformed backend architecture into multi-tenant SaaS platform</span>, empowering Board-Certified Behavior Analysts (BCBAs) to independently manage their businesses on it.",
@@ -23,7 +23,7 @@ const experienceData = [
   {
     company: "Careem (Uber Inc.)",
     role: "Senior Software Engineer I",
-    duration: "Dec 2022 - Sept 2023",
+    duration: "Dec 2019 - Sept 2020",
     icon: careem,
     descriptionItems: [
         "<span class=\"purple\">Migrated and modularized core applications</span> into independent microservices, utilizing REST APIs for communication.",
@@ -36,7 +36,7 @@ const experienceData = [
   {
     company: "Thorgate",
     role: "Full Stack Developer",
-    duration: "Dec 2022 - Mar 2023",
+    duration: "Dec 2018 - Mar 2019",
     icon: thorgate,
     descriptionItems: [
         "<span class=\"purple\">Led development of ODI Medical</span> (health tech application), utilizing ML algorithms to detect capillaries in skin images.",
@@ -48,7 +48,7 @@ const experienceData = [
   {
     company: "TUNE",
     role: "Senior Software Engineer",
-    duration: "May 2021 - Dec 2023",
+    duration: "May 2017 - Dec 2018",
     icon: tune,
     descriptionItems: [
         "<span class=\"purple\">Developed and optimized internal admin portal</span> to enhance employee management of client accounts.",
@@ -60,7 +60,7 @@ const experienceData = [
   {
     company: "GoodCore Software",
     role: "Software Engineer",
-    duration: "Jun 2019 - May 2021",
+    duration: "Jun 2015 - May 2017",
     icon: goodcore,
     descriptionItems: [
         "<span class=\"purple\">Transitioned conferencing tool’s APIs from V2 to V3</span>, maintaining compatibility for existing legacy users.",
