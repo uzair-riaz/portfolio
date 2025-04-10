@@ -11,7 +11,7 @@ function AboutCard() {
             Hi Everyone, I am <span className="purple">Uzair Riaz Farooqui </span>
             from <span className="purple"> Karachi, Pakistan.</span>
             <br />
-            I am currently employed as a <span className="purple">Senior Software Engineer</span> at <span className="purple">Unified Vision</span>.
+            I am currently employed as a <span className="purple">Staff Software Engineer</span> at <span className="purple">Unified Vision</span>.
             <br />
             <br />
             Apart from coding, some other activities that I love to do!

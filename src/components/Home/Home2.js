@@ -17,7 +17,7 @@ function Home2() {
               LET ME <span className="purple"> INTRODUCE </span> MYSELF
             </h1>
             <p className="home-about-body">
-            Accomplished Senior Software Engineer with extensive experience developing end-to-end technical solutions and supporting
+            Accomplished Staff Software Engineer with extensive experience developing end-to-end technical solutions and supporting
             continuous improvement processes that empower businesses to drive growth and achieve their goals.
               <br />
               <br />
